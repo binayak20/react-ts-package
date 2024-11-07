@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-package",
+  "version": "1.0.0",
+  "description": "A sample React component package written in TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binayak20/react-ts-package.git"
+  },
+  "author": "Binayak Ray",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "component",
+    "npm"
+  ],
+  "homepage": "https://github.com/binayak20/react-ts-package#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3"
+  }
+}
